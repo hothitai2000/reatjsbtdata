@@ -16,6 +16,7 @@ class Content extends Component {
           image={key.img}
           name={key.name}
           oldprice={key.oldprice}
+          
           newprice={key.newprice}
           des={key.des}
         />
