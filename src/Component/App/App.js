@@ -1,23 +1,32 @@
-
+import React, { Component } from 'react';
 import './App.css';
-// import Header from '../Header/Header';
-// import Content from '../Body/Content';
-// import { Data } from '../Body/Data';
-// import ShowCard from '../Body/Showcard/ShowCard';
-// import Footer from '../Footer/Footer';
-// import FavoriteColor from '../Hooks/FavoriteColor';
-// import Car from '../Hooks/Car';
-import LoginForm from '../Hooks/LoginForm';
-// import ActionButton from '../../userState/Hooks/form';
-function App() {
+// import { BrowserRouter, Routes, Route} from 'react-router-dom';
+// import Home from './Component/Router/Components/Home';
+// import About from './Component/Router/Components/About';
+// import Topic from './Component/Router/Components/Topic';
+// import Layout from './Component/Router/Components/Layout';
+import Shop from '../Content/shoping';
+
+class App extends Component {
+  render(){
   return (
-   <div id="container">
-      {/* <Header></Header>
-      <FavoriteColor></FavoriteColor>
-      <Car></Car> */}
-      {/* <ActionButton/> */}
-      <LoginForm></LoginForm>
-   </div>
+    <Shop></Shop>
+    // <>
+    // <BrowserRouter>
+    // <Layout/>
+    //   <Routes>
+    //      <Route exact path='/home' Component={Home}/>
+    //     <Route path='/about' Component={About} />
+    //     <Route path='/topic' Component={Topic} /> 
+        
+    //   </Routes>
+    // </BrowserRouter>
+    // </>
   );
 }
+}
 export default App;
+
+
+
+
